@@ -7,8 +7,9 @@ header { /*CAPÇALERA*/
   }
   
   header img {  /*IMATGE DELICIAS KITCHEN*/
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
+    align-items: center;
   }
   
   nav {   /*INICIO/SOBRE MI/ RECETAS/ CONTACTO/ OTRAS COSAS*/
@@ -25,70 +26,17 @@ header { /*CAPÇALERA*/
 
   nav ul { /*INICIO/SOBRE MI/ RECETAS/ CONTACTO/ OTRAS COSAS*/
     list-style:none;
-    text-decoration: none;
-    margin: 10px;
-    padding: 20px;
+    margin: 50px;
+    padding: 50px;
     display: flex;
-    margin-right: 20px;
+    margin-right: 50px;
     color: black;
   }
 
-  nav hover {
-    color: #7ABA96;
-  }
 
-              /*CADA APARTAT DEL HEADER */
-.INICIO{
-    margin-right: 20px;
-  }
-.SOBREMI{
-  margin-right: 20px;
+main{
+  display:flex
 }
-.RECETAS{
-  margin-right: 20px;
-}
-.CONTACTO{
-  margin-right: 20px;
-}
-.OTRAS {
-  margin-right: 20px;
-}
-
-
-.container{
-  display:block;
-  margin-right:90%;
-  align-items: center; 
-}
-
-.aboutme{
-  text-align: justify;
-  display: block;
-}
-.texto{
-  color: darkgray;
-  text-align: center; 
-  display: block; 
-}
-  .container2{
-    display: flex;
-    margin-right:80%;
-    align-items: center
-  }
-
-  .green_letter{
-  background-color: #7ABA96;
-  }
-   .susc{
-  text-align: center;
- }
-  .apunta{
-    text-align: center;
-  }
- .col_pasta{
-  display: block;
-  margin-top: 0%;
- }
  
  
 
