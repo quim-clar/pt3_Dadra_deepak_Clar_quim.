@@ -1,11 +1,12 @@
-header { /*CAPÇALERA*/
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    flex-direction: column;
-  }
+/*CAPÇALERA*/
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+}
   
   header img {  /*IMATGE DELICIAS KITCHEN*/
     max-width: 100%;
@@ -28,7 +29,7 @@ header { /*CAPÇALERA*/
 
   nav ul { /*INICIO/SOBRE MI/ RECETAS/ CONTACTO/ OTRAS COSAS*/
     list-style:none;
-    margin: 20x;
+    margin: 20px;
     padding: 50px;
     display: flex;
     margin-right: 50px;
@@ -40,45 +41,121 @@ header { /*CAPÇALERA*/
     background-color:#7ABA96 ;    /* Al passar per sobre, el menú canvia el seu aspecte */
   }
 
-main{
-  display:flex;
-  flex-direction: row;
-  padding-top: 60px; /*Ajusta segons l'alçada de la barra de navegació*/
-  ;   
-}
-aside {
-  float:left;
-  width: 30%;
-  text-align: center;
+  main{
+    display:flex;
+    flex-direction: row;
+    padding-top: 60px; /*Ajusta segons l'alçada de la barra de navegació*/
+    ;   
+  }
+  aside {
+    float:left;
+    width: 30%;
+    text-align: center;
 
+  }
+
+  article{
+    width: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+    
+  }
+
+  .articles-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; /*Mou la fila cap a la dreta*/
+    padding-top: 4%;
+    margin-left: 5%;
+  }
+
+  .row{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch; /*Fa que els articles tinguin la mateixa alçada*/
+    width: 100%;
+  }
+
+  .article{
+    margin-right: 10px;
+  }
+
+
+  footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  footer li {
+    margin-right: 20px;
+  }
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-article{
-  width: 5%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 20px;
-  text-align: center;
-  
+
+/* ARA VE LA TAULA*/
+table {
+	width: 100%;
+	border-collapse: collapse;
 }
 
-.articles-container{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: flex-end; /*Mou la fila cap a la dreta*/
-  padding-top: 4%;
-  margin-left: 5%;
+th, td {
+	padding: 10px;
+	text-align: left;
 }
 
-.row{
-  display:flex;
-  justify-content: space-between;
-  align-items: stretch; /*Fa que els articles tinguin la mateixa alçada*/
+th {
+	background-color: #80767680;
+	color: black;
+}
+
+tr:nth-child(even) {
+	background-color:white;
+}
+
+a {
+	color: #008080;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Canvio color de fons de la taula i el text de la capçalera */
+table{
   width: 100%;
+  border-collapse: collapse;
 }
 
-.article{
-  margin-right: 10px;
+th {
+  background-color: #7ABA96;
+  color:white;
+}
+
+table,th,td{  /*Afegeixo vores a les cedules i files*/
+  border: 1px solid black;
+}
+
+
+.receta{ /*Aixó són les noves receptes*/
+  font-size:20px ;
+  color: rgb(4, 5, 5);
+  margin-bottom: 20px;
+  display: block;
 }
 
