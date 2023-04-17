@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="recetas.xsl" type="text/xsl"?>
+
+<recetas>
+    <receta>
+        <nombre>Calabacines rellenos de arroz negro y calabaza</nombre>
+        <habitantes>450000</habitantes>
+    </receta>
+    <receta>
+        <nombre>Tenerife</nombre>
+        <habitantes>400</habitantes>
+    </receta>
+    <receta>
+        <nombre>Segovia</nombre>
+        <habitantes>50</habitantes>
+    </receta>
+    <receta>
+        <nombre>Barcelona</nombre>
+        <habitantes>33</habitantes>
+    </receta>
+    <receta>
+        <nombre>Vic</nombre>
+        <habitantes>50</habitantes>
+    </receta>
+</recetas>

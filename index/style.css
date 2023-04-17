@@ -1,6 +1,7 @@
 /*CAPÇALERA*/
+
 header {
-  height: 80px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,13 +9,12 @@ header {
   flex-direction: column;
 }
   
-  header img {  /*IMATGE DELICIAS KITCHEN*/
-    max-width: 100%;
-    height: auto;
-    align-items: center;
-  }
+header img {  /* IMATGE DELICIAS KITCHEN */
+  max-width: 100%;
+  height: auto;
+}
   
-  nav {   /*INICIO/SOBRE MI/ RECETAS/ CONTACTO/ OTRAS COSAS*/
+nav {   /*INICIO/SOBRE MI/ RECETAS/ CONTACTO/ OTRAS COSAS*/
     background-color: white;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -25,80 +25,82 @@ header {
     width: 100%;
     height:40px;
     padding: 20px;   /* Per separar el nav de la imatge. */
-  }
+}
 
-  nav ul { /*INICIO/SOBRE MI/ RECETAS/ CONTACTO/ OTRAS COSAS*/
+nav ul { /*INICIO/SOBRE MI/ RECETAS/ CONTACTO/ OTRAS COSAS*/
     list-style:none;
     margin: 20px;
-    padding: 50px;
+    padding: 10px;
     display: flex;
     margin-right: 50px;
     color: black;
-  }
+}
 
-
-  nav a:hover{
+nav a:hover{
     background-color:#7ABA96 ;    /* Al passar per sobre, el menú canvia el seu aspecte */
-  }
+}
 
-  main{
+main{
     display:flex;
     flex-direction: row;
     padding-top: 60px; /*Ajusta segons l'alçada de la barra de navegació*/
     ;   
-  }
-  aside {
+}
+
+aside {
     float:left;
     width: 30%;
     text-align: center;
+}
 
-  }
-
-  article{
-    width: 5%;
+article{
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 2%;
     text-align: center;
     
-  }
+}
 
-  .articles-container{
+.articles-container{
     display:flex;
     flex-wrap: wrap;
-    justify-content: flex-end; /*Mou la fila cap a la dreta*/
+    justify-content: center; /*Mou la fila cap a la dreta*/
+    align-items: stretch;
     padding-top: 4%;
     margin-left: 5%;
-  }
+    margin-right: 5%;
+}
 
-  .row{
+.row{
     display:flex;
     justify-content: space-between;
     align-items: stretch; /*Fa que els articles tinguin la mateixa alçada*/
     width: 100%;
-  }
+}
 
-  .article{
-    margin-right: 10px;
-  }
+.article{
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
 
-
-  footer {
+footer {
     background-color: black;
     display: flex;
     justify-content: center;
-  }
+}
 
-  footer ul {
+footer ul {
     display: flex;
     list-style: none;
     padding: 0;
-  }
+    margin: 0;
+}
 
-  footer li {
+footer li {
     margin-right: 20px;
-  }
+}
 
 footer a {
   color: white;

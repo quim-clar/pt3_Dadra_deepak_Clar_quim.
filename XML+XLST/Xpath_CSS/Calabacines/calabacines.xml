@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recipe [
+<!ELEMENT recipe (title, image, ingredients, times, steps)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image alt CDATA #REQUIRED
+              src CDATA #REQUIRED>
+<!ELEMENT ingredients (ingredient+)>
+<!ELEMENT ingredient (#PCDATA)>
+<!ELEMENT times (time+)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT steps (step+)>
+<!ELEMENT step (#PCDATA)>
+]>
+<recipe>
+
+  <title>Calabacines rellenos de arroz negro y calabaza</title>
+  <image alt="calabacines" src="calabacines.jpg"/>
+  <ingredients>
+    <ingredient>4 calabacines medianos</ingredient>
+    <ingredient>1 taza de arroz negro</ingredient>
+    <ingredient>2 tazas de caldo de verduras</ingredient>
+    <ingredient>1 cebolla picada</ingredient>
+    <ingredient>2 dientes de ajo picados</ingredient>
+    <ingredient>1 taza de calabaza pelada y cortada en cubos pequeños</ingredient>
+    <ingredient>1/2 taza de tomates secos hidratados y picados</ingredient>
+    <ingredient>1/4 taza de aceitunas negras picadas</ingredient>
+    <ingredient>1 cucharada de alcaparras picadas</ingredient>
+    <ingredient>1 cucharada de aceite de oliva</ingredient>
+    <ingredient>Sal y pimienta al gusto</ingredient>
+  </ingredients>
+  <times>
+    <time>Preparación: 30 minutos</time>
+    <time>Cocinar: 1 hora y 15 minutos</time>
+    <time>Total: 1 hora y 45 minutos</time>
+  </times>
+  <steps>
+    <step>Corta la parte superior de los calabacines y vacía su interior con una cuchara. Reserva la pulpa del calabacín.</step>
+    <step>Lava el arroz negro con agua fría y cuécelo en una cazuela con el caldo de verduras durante unos 45 minutos o hasta que esté tierno. Escurre y reserva.</step>
+    <step>Pon una sartén a fuego medio con aceite de oliva y añade la cebolla y el ajo. Sofríe hasta que la cebolla esté transparente.</step>
+    <step>Agrega la pulpa del calabacín y la calabaza a la sartén y cocina durante 10 minutos.</step>
+    <step>Agrega los tomates secos, las aceitunas y las alcaparras y cocina durante 5 minutos más.</step>
+    <step>Mezcla el arroz negro con el sofrito de verduras y sazona con sal y pimienta al gusto.</step>
+    <step>Rellena los calabacines con la mezcla de arroz y verduras y colócalos en una bandeja para hornear. Si sobra mezcla de arroz, puedes servirla como acompañamiento.</step>
+    <step>Tapa los calabacines con su parte superior y hornea a 180°C durante 1 hora.</step>
+    <step>Retira del horno y deja reposar durante unos minutos antes de servir.</step>
+    <step>DISFRUTAR!!!! 😋😋😋</step>
+  </steps>
+</recipe>
+
