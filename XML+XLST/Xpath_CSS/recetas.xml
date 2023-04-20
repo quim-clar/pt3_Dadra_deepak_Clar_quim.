@@ -1,25 +1,931 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet href="recetas.xsl" type="text/xsl"?>
 
-<recetas>
-    <receta>
-        <nombre>Calabacines rellenos de arroz negro y calabaza</nombre>
-        <habitantes>450000</habitantes>
-    </receta>
-    <receta>
-        <nombre>Tenerife</nombre>
-        <habitantes>400</habitantes>
-    </receta>
-    <receta>
-        <nombre>Segovia</nombre>
-        <habitantes>50</habitantes>
-    </receta>
-    <receta>
-        <nombre>Barcelona</nombre>
-        <habitantes>33</habitantes>
-    </receta>
-    <receta>
-        <nombre>Vic</nombre>
-        <habitantes>50</habitantes>
-    </receta>
-</recetas>
+<recepes>
+    <recepe>
+        <title>Calabacines rellenos de arroz negro y calabaza</title>
+        <image alt="calabacines" src="calabacines.jpg"/>
+        <ingredients>
+            <ingredient>4 calabacines medianos</ingredient>
+            <ingredient>1 taza de arroz negro</ingredient>
+            <ingredient>2 tazas de caldo de verduras</ingredient>
+            <ingredient>1 cebolla picada</ingredient>
+            <ingredient>2 dientes de ajo picados</ingredient>
+            <ingredient>1 taza de calabaza pelada y cortada en cubos pequeños</ingredient>
+            <ingredient>1/2 taza de tomates secos hidratados y picados</ingredient>
+            <ingredient>1/4 taza de aceitunas negras picadas</ingredient>
+            <ingredient>1 cucharada de alcaparras picadas</ingredient>
+            <ingredient>1 cucharada de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 30 minutos</time>
+            <time>Cocinar: 1 hora y 15 minutos</time>
+            <time>Total: 1 hora y 45 minutos</time>
+        </times>
+        <steps>
+            <step>Corta la parte superior de los calabacines y vacía su interior con una cuchara. Reserva la pulpa del calabacín.</step>
+            <step>Lava el arroz negro con agua fría y cuécelo en una cazuela con el caldo de verduras durante unos 45 minutos o hasta que esté tierno. Escurre y reserva.</step>
+            <step>Pon una sartén a fuego medio con aceite de oliva y añade la cebolla y el ajo. Sofríe hasta que la cebolla esté transparente.</step>
+            <step>Agrega la pulpa del calabacín y la calabaza a la sartén y cocina durante 10 minutos.</step>
+            <step>Agrega los tomates secos, las aceitunas y las alcaparras y cocina durante 5 minutos más.</step>
+            <step>Mezcla el arroz negro con el sofrito de verduras y sazona con sal y pimienta al gusto.</step>
+            <step>Rellena los calabacines con la mezcla de arroz y verduras y colócalos en una bandeja para hornear. Si sobra mezcla de arroz, puedes servirla como acompañamiento.</step>
+            <step>Tapa los calabacines con su parte superior y hornea a 180°C durante 1 hora.</step>
+            <step>Retira del horno y deja reposar durante unos minutos antes de servir.</step>
+            <step>DISFRUTAR!!!! 😋😋😋</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Ensalada fresca</title>
+        <ingredients>
+            <ingredient>Lechuga</ingredient>
+            <ingredient>Tomate</ingredient>
+            <ingredient>Lechuga</ingredient>
+            <ingredient>Cebolla</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 5 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar la lechuga y cortarla en tiras. Colocarla en una ensaladera</step>
+            <step>Cortar el tomate y la cebolla en rodajas y añadirlos a la ensaladera</step>
+            <step>Pon una sartén a fuego medio con aceite de oliva y añade la cebolla y el ajo. Sofríe hasta que la cebolla esté transparente.</step>
+            <step>Agregar el atún, el maíz y el queso feta desmenuzado.</step>
+            <step>Aliñar con aceite, vinagre, sal y pimienta al gusto.</step>
+            <step>Mezclar bien todos los ingredientes y servir</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Arroz caldoso con mariscos</title>
+        <ingredients>
+            <ingredient>Arroz</ingredient>
+            <ingredient>Marisco</ingredient>
+            <ingredient>Ajo</ingredient>
+            <ingredient>Cebolla</ingredient>
+            <ingredient>Pimentón dulce</ingredient>
+            <ingredient>Caldo de pescado</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 65 minutos</time>
+        </times>
+        <steps>
+            <step>Cortar la cebolla, el ajo, el pimiento y el tomate en trozos pequeños.</step>
+            <step>En una cazuela, calentar el aceite de oliva y sofreír la cebolla, el ajo y el pimiento hasta que estén dorados.</step>
+            <step>Añadir el tomate y el pimentón dulce y cocinar por unos minutos más.</step>
+            <step>Agregar los mariscos y saltear durante 2 minutos.</step>
+            <step>Añadir el arroz y el caldo de pescado, y llevar a ebullición.</step>
+            <step>Cocinar a fuego medio-bajo durante unos 20 minutos, o hasta que el arroz esté cocido y el caldo se haya absorbido.</step>
+            <step>Dejar reposar durante 5 minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Galletas</title>
+        <ingredients>
+            <step>1 taza de avena</step>
+            <step>1/2 taza de harina integral</step>
+            <step>1/4 taza de miel</step>
+            <step>1/4 taza de aceite de coco fundido</step>
+            <step>2 cucharadas de agua de rosas</step>
+            <step>1 cucharadita de ralladura de lima</step>
+            <step>1/2 cucharadita de extracto de vainilla</step>
+            <step>1/4 cucharadita de sal</step>
+            <step>1/4 cucharadita de bicarbonato de sodio</step>
+            <step>2-3 cucharadas de leche de almendras (opcional)</step>
+        </ingredients>
+        <times>
+            <time>Preparación: 10 minutos</time>
+            <time>Cocinar: 15 minutos</time>
+	        <time>Total: 25 minutos</time>
+        </times>
+        <steps>
+            <step>Pre calienta el horno a 180°C y forra una bandeja para hornear con papel pergamino.</step>
+            <step>En un tazón grande, mezcla la avena, la harina integral, el bicarbonato de sodio y la sal.</step>
+	        <step>Agrega el aceite de coco fundido, la miel, el agua de rosas, la ralladura de lima y el extracto de vainilla a la mezcla de avena y mezcla bien todos los ingredientes hasta obtener una masa homogénea. Si la masa está muy seca, agrega un poco de leche de almendras para humedecerla.</step>
+            <step>Forma pequeñas bolas de masa y colócalas en la bandeja para hornear, dejando un poco de espacio entre cada galleta.</step>
+            <step>Usando la parte inferior de un vaso, presiona suavemente cada galleta para aplanarla ligeramente.</step>
+            <step>Hornea las galletas durante unos 12-15 minutos, o hasta que los bordes estén dorados.</step>
+            <step>Retira las galletas del horno y déjalas enfriar en la bandeja durante unos minutos antes de transferirlas a una rejilla para que se enfríen por completo.</step>
+            <step>Sirve las galletas de avena, rosa y lima y disfruta de su delicioso sabor.</step>
+            <step>DISFRUTAR!!!! 😋😋😋</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 2</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 3</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 4</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 5</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 6</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 7</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 8</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 9</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Gazpacho 10</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 pepino</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>50 g de pan duro</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>20 ml de vinagre de jerez</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Agua fría</ingredient>
+            <ingredient>Para decorar: huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y pan duro en cubitos.</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+        </times>
+        <steps>
+            <step>Lavar los tomates, el pepino y el pimiento y cortar en trozos grandes.</step>
+            <step>Pelar el diente de ajo y cortar en trozos.</step>
+            <step>Poner todos los ingredientes en una batidora o robot de cocina y triturar hasta que estén bien mezclados.</step>
+            <step>Añadir el aceite de oliva, el vinagre y la sal al gusto. Mezclar bien.</step>
+            <step>Refrigerar el gazpacho durante al menos 2 horas antes de servir.</step>
+            <step>Servir frío y decorar con huevo duro picado, jamón serrano picado, pepino picado, pimiento picado y cubitos de pan duro.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Pizza casera</title>
+        <ingredients>
+            <ingredient>500g de harina</ingredient>
+            <ingredient>25g de levadura fresca</ingredient>
+            <ingredient>1 cucharadita de sal</ingredient>
+            <ingredient>1 cucharadita de azúcar</ingredient>
+            <ingredient>300ml de agua tibia</ingredient>
+            <ingredient>50 ml de aceite de oliva</ingredient>
+            <ingredient>4 cucharadas de aceite de oliva</ingredient>
+            <ingredient>200g de salsa de tomate</ingredient>
+            <ingredient>200g de queso mozzarella</ingredient>
+            <ingredient>1 cebolla.</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>100g de champiñones></ingredient>
+            <ingredient>100g de jamón</ingredient>
+            <ingredient>Orégano al gusto</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 30 minutos</time>
+            <time>Cocinar: 1 hora y 15 minutos</time>
+            <time>Total: 1 hora y 45 minutos</time>
+        </times>
+        <steps>
+            <step>En un bol, mezclar la harina con la sal y el azúcar.</step>
+            <step>Desmenuzar la levadura en un poco de agua tibia y añadir a la mezcla anterior.</step>
+            <step>Añadir el resto del agua tibia y el aceite de oliva, y amasar hasta obtener una masa homogénea.</step>
+            <step>Cubrir el bol con un paño húmedo y dejar reposar la masa durante una hora en un lugar cálido.</step>
+            <step>Preparar los ingredientes: cortar la cebolla, el pimiento y los champiñones en rodajas finas.</step>
+            <step>Una vez que la masa haya reposado, precalentar el horno a 220°C.</step>
+            <step>Estirar la masa con un rodillo y colocarla en una bandeja para horno previamente engrasada.</step>
+            <step>Cubrir la masa con la salsa de tomate, dejando un borde libre alrededor.</step>
+            <step>Añadir el queso mozzarella y los ingredientes preparados anteriormente.</step>
+            <step>Introducir la pizza en el horno durante unos 15-20 minutos, hasta que esté dorada y crujiente.</step>
+            <step>Servir caliente.</step>
+            <step>DISFRUTAR!!!! 😋😋😋</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Receta de pavo de Navidad</title>
+        <ingredients>
+            <ingredient>1 pavo de aproximadamente 5-6 kg</ingredient>
+            <ingredient>200 g de mantequilla</ingredient>
+            <ingredient>2 cebollas</ingredient>
+            <ingredient>2 zanahorias</ingredient>
+            <ingredient>2 tallos de apio</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>1 limón</ingredient>
+            <ingredient>Hierbas frescas como romero, salvia y tomillo</ingredient>
+            <ingredient>Sal y pimienta negra molida</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 2 horas</time>
+            <time>Cocinar: 6 horas</time>
+            <time>Total: :8 horas</time>
+        </times>
+        <steps>
+            <step>Precalentar el horno a 180°C.</step>
+            <step>Limpiar el pavo y secarlo con papel de cocina.</step>
+            <step>Mezclar la mantequilla con las hierbas picadas, la sal y la pimienta.</step>
+            <step>Frotar la mezcla de mantequilla por todo el pavo, asegurándose de cubrir bien.</step>
+            <step>Rellenar el interior del pavo con las cebollas, zanahorias, apio, ajo y el limón cortado en cuartos.</step>
+            <step>Atar las patas del pavo con hilo de cocina.</step>
+            <step>Colocar el pavo en una bandeja para horno y verter el caldo de pollo por encima.</step>
+            <step>Cubrir el pavo con papel aluminio y hornear durante 3-4 horas, dependiendo del tamaño del pavo, hasta que esté cocido por completo.</step>
+            <step>Retirar el papel aluminio durante los últimos 30 minutos de cocción para dorar la piel del pavo.</step>
+            <step>Dejar reposar el pavo durante unos 10-15 minutos antes de cortarlo y servirlo con sus guarniciones favoritas.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Helado de Chocolate</title>
+        <ingredients>
+            <ingredient>2 tazas de crema para batir</ingredient>
+            <ingredient>1 taza de leche entera</ingredient>
+            <ingredient>3/4 taza de azúcar</ingredient>
+            <ingredient>3/4 taza de cacao en polvo sin azúcar</ingredient>
+            <ingredient>1 cucharadita de extracto de vainilla</ingredient>
+            <ingredient>Pizca de sal</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 30 minutos</time>
+            <time>Congelar: 6 horas</time>
+            <time>Total: 6:30 horas</time>
+        </times>
+        <steps>
+            <step>En un tazón grande, mezcle la crema para batir, la leche, el azúcar, el cacao en polvo, la vainilla y la sal. Revuelva hasta que el azúcar y el cacao en polvo estén completamente disueltos.</step>
+            <step>Congele la mezcla en una máquina de helados según las instrucciones del fabricante.</step>
+            <step>Sirva el helado recién hecho o transfiera a un recipiente hermético y congele hasta que esté listo para servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Tarta de Santiago</title>
+        <ingredients>
+            <ingredient>200 g de almendras molidas</ingredient>
+            <ingredient>200 g de azúcar</ingredient>
+            <ingredient>4 huevos</ingredient>
+            <ingredient>La ralladura de 1 limó</ingredient>
+            <ingredient>1 cucharadita de extracto de vainilla</ingredient>
+            <ingredient>Azúcar glas para decorar</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 30 minutos</time>
+            <time>Cocinar: 1 hora</time>
+            <time>Total:1:30 hora</time>
+        </times>
+        <steps>
+            <step>Preparar un molde redondo para horno y precalentar el horno a 180°C.</step>
+            <step>En un bol, mezclar las almendras molidas y el azúcar.</step>
+            <step>En otro bol, batir los huevos hasta que estén espumosos.</step>
+            <step>Añadir la ralladura de limón a los huevos batidos.</step>
+            <step>Incorporar la mezcla de almendras y azúcar a los huevos batidos y mez</step>
+            <step>Verter la masa en el molde y alisar la superficie.</step>
+            <step>Hornear durante 30-35 minutos, o hasta que la tarta esté dorada y firme al tacto.</step>
+            <step>Dejar enfriar la tarta antes de desmoldarla y espolvorearla con azúcar glas antes de servirla.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Leche Frita</title>
+        <ingredients>
+            <ingredient>1 litro de leche</ingredient>
+            <ingredient>150 g de azúcar</ingredient>
+            <ingredient>100 g de harina</ingredient>
+            <ingredient>4 huevos</ingredient>
+            <ingredient>La piel de un limón</ingredient>
+            <ingredient>Canela en polvo</ingredient>
+            <ingredient>Aceite de oliva suave para freír</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 30 minutos</time>
+            <time>Cocinar: 1 hora</time>
+            <time>Total:1:30 hora</time>
+        </times>
+        <steps>
+            <step>En una olla, calentar la leche junto con la piel de limón y la canela. Llevar a ebullición y retirar del fuego.</step>
+            <step>En otro bol, mezclar el azúcar y la harina.</step>
+            <step>En otro bol, batir los huevos hasta que estén espumosos.</step>
+            <step>Retirar la piel de limón y la canela de la leche y añadir la mezcla de azúcar y harina. Mezclar bien hasta que esté suave.</step>
+            <step>Añadir los huevos batidos a la mezcla de leche y harina y mezclar bien.</step>
+            <step>Volver a poner la olla al fuego y cocinar la mezcla a fuego medio, removiendo constantemente hasta que espese y se despegue de las paredes de la olla.</step>
+            <step>Verter la mezcla en una fuente y dejar enfriar.</step>
+            <step>Cortar la mezcla en porciones y pasar por harina.</step>
+            <step>Calentar aceite de oliva en una sartén y freír las porciones de leche frita hasta que estén doradas por ambos lados.</step>
+            <step>Servir caliente espolvoreada con azúcar y canela.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Libritos</title>
+        <ingredients>
+            <ingredient>8 filetes de lomo de cerdo</ingredient>
+            <ingredient>16 lonchas de jamón serrano</ingredient>
+            <ingredient>8 lonchas de queso</ingredient>
+            <ingredient>Harina</ingredient>
+            <ingredient>Huevo</ingredient>
+            <ingredient>Pan rallado</ingredient>
+            <ingredient>Aceite de oliva</ingredient>
+            <ingredient>Sal</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 20 minutos</time>
+            <time>Freir: 20 minutos</time>
+            <time>Total: 40 minutos</time>
+        </times>
+        <steps>
+            <step>Colocar los filetes de lomo entre dos láminas de plástico y aplastarlos con un mazo hasta que queden finos y parejos.</step>
+            <step>Salar los filetes al gusto.</step>
+            <step>Colocar una loncha de jamón y una de queso sobre cada filete.</step>
+            <step>Enrollar cada filete de manera que el jamón y el queso queden en el interior y sujetarlos con un palillo.</step>
+            <step>Pasar los libritos por harina, huevo batido y pan rallado.</step>
+            <step>Calentar abundante aceite de oliva en una sartén y freír los libritos hasta que estén dorados por ambos lados.</step>
+            <step>Retirar los palillos antes de servir.</step>  
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Kebab</title>
+        <ingredients>
+            <ingredient>Carne de cordero</ingredient>
+            <ingredient>Lechuga</ingredient>
+            <ingredient>Tomate</ingredient>
+            <ingredient>Cebolla</ingredient>
+            <ingredient>Salsa de yogur</ingredient>
+            <ingredient>Pan de pita</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación: 30 minutos</time>
+        </times>
+        <steps>
+            <step>Cocina la carne de cordero en una sartén con aceite caliente.</step>
+            <step>Corta el tomate, la cebolla y la lechuga en trozos pequeños.</step>
+            <step>Calienta el pan de pita en una plancha o sartén.</step>
+            <step>Coloca la carne de cordero y las verduras en el pan de pita caliente.</step>
+            <step>Agrega la salsa de yogur.</step>
+            <step>Enrolla el pan de pita y sirve caliente.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Merenguitos al Horno sobre Natillas</title>
+        <ingredients>
+            <ingredient>4 claras de huevo</ingredient>
+            <ingredient>200 gramos de azúcar</ingredient>
+            <ingredient>1 cucharadita de maicena</ingredient>
+            <ingredient>1 cucharadita de vinagre blanco</ingredient>
+            <ingredient>500 ml de lechr</ingredient>
+            <ingredient>4 yemas de huevo</ingredient>
+            <ingredient>100 gramos de azúcar</ingredient>
+            <ingredient>1 cucharada de esencia de vainilla</ingredient>
+            <ingredient>Canela en polvo para decorar</ingredient>
+        </ingredients>
+        <times>
+            <time>Preparación:20 minutos</time>
+            <time>Cocina: 1 hora </time>
+            <time>Total: 1:20 horas</time>
+        </times>
+        <steps>
+            <step>Para hacer los merenguitos, precalentar el horno a 120°C y forrar una bandeja para hornear con papel de horno.</step>
+            <step>En un bol grande, batir las claras de huevo con una batidora eléctrica hasta que formen picos suaves.</step>
+            <step>Añadir poco a poco el azúcar, batiendo continuamente, hasta que las claras estén firmes y brillantes.</step>
+            <step>Añadir el vinagre y la maicena y batir de nuevo durante unos segundos.</step>
+            <step>Colocar cucharadas de la mezcla de merengue en la bandeja para hornear, dejando espacio entre ellas.</step>
+            <step>Hornear durante unos 60-90 minutos, o hasta que los merenguitos estén crujientes por fuera y suaves por dentro.</step>
+            <step>Para hacer las natillas, calentar la leche en una cacerola a fuego medio.</step>
+            <step>En un bol aparte, batir las yemas de huevo con el azúcar y la esencia de vainilla hasta que estén suaves y cremosas.</step>
+            <step>Añadir un poco de la leche caliente a la mezcla de yemas y mezclar bien.</step>
+            <step>Verter la mezcla de yemas en la cacerola con la leche caliente y cocinar a fuego medio-bajo, revolviendo constantemente, hasta que la mezcla se espese lo suficiente como para cubrir el dorso de una cuchara.</step>
+            <step>Retirar del fuego y dejar enfriar.</step>
+            <step>Para servir, colocar una cucharada grande de natillas en cada plato y cubrir con un merenguito.</step>
+            <step>Decorar con un poco de canela en polvo y servir inmediatamente.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 2</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 3</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 4</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 5</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 6</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 7</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 8</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 8</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 9</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    <recepe>
+        <title>Paella 10</title>
+        <ingredients>
+            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>1 litro de caldo de pescado</ingredient>
+			<ingredient>200 gramos de gambaingredient</ingredient>
+			<ingredient>1 cebolla grande</ingredient>
+			<ingredient>1 pimiento verde</ingredient>
+			<ingredient>1 pimiento rojo</ingredient>
+			<ingredient>3 dientes de ajo</ingredient>
+			<ingredient>1 tomate maduro</ingredient>
+			<ingredient>Azafrán</ingredient>
+			<ingredient>Sal</ingredient>
+			<ingredient>Aceite de oliva</ingredient>
+        </ingredients>
+        <times>
+            <time>Tiempo de preparación: 30 minutos</time>
+            <time>Tiempo de cocción: 45 minutos</time>
+            <time>Dificultad: Media</time>
+            <time>Raciones: 4 personas</time>
+        </times>
+        <steps>
+            <step>Pelar y picar los ajos y la cebolla. Limpiar y picar los pimientos y el tomate.</step>
+			<step>En una paellera, poner aceite de oliva y sofreír los ajos y la cebolla. Añadir los pimientos y el tomate y dejar que se sofrían durante unos minutos.</step>
+			<step>Añadir las gambas y los mejillones y dejar que se cocinen durante unos minutos.</step>
+			<step>Agregar el arroz y sofreír durante unos minutos.</step>
+			<step>Añadir el caldo de pescado, el azafrán y la sal y mezclar bien. Cocinar durante 18 minutos a fuego medio.</step>
+			<step>Una vez cocido el arroz, apagar el fuego y dejar reposar durante unos minutos antes de servir.</step>
+        </steps>
+    </recepe>
+    
+</recepes>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE recipe [
-<!ELEMENT recipe (title, image, ingredients, times, steps)>
+<!DOCTYPE receta [
+<!ELEMENT receta (title, image, ingredients, times, steps)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT image EMPTY>
 <!ATTLIST image alt CDATA #REQUIRED
@@ -12,8 +12,7 @@
 <!ELEMENT steps (step+)>
 <!ELEMENT step (#PCDATA)>
 ]>
-<recipe>
-
+<receta>
   <title>Calabacines rellenos de arroz negro y calabaza</title>
   <image alt="calabacines" src="calabacines.jpg"/>
   <ingredients>
@@ -46,5 +45,4 @@
     <step>Retira del horno y deja reposar durante unos minutos antes de servir.</step>
     <step>DISFRUTAR!!!! 😋😋😋</step>
   </steps>
-</recipe>
-
+</receta>
