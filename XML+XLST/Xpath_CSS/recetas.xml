@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet href="recetas.xsl" type="text/xsl"?>
+<?xml-stylesheet href="recetas.xslt" type="text/xslt"?>
 
 <recepes>
     <recepe>
@@ -601,7 +601,7 @@
     <recepe>
         <title>Paella</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -631,7 +631,7 @@
     <recepe>
         <title>Paella 2</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -661,7 +661,7 @@
     <recepe>
         <title>Paella 3</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -691,7 +691,7 @@
     <recepe>
         <title>Paella 4</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -721,7 +721,7 @@
     <recepe>
         <title>Paella 5</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -751,7 +751,7 @@
     <recepe>
         <title>Paella 6</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -781,7 +781,7 @@
     <recepe>
         <title>Paella 7</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -811,7 +811,7 @@
     <recepe>
         <title>Paella 8</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -841,7 +841,7 @@
     <recepe>
         <title>Paella 8</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -871,7 +871,7 @@
     <recepe>
         <title>Paella 9</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
@@ -901,7 +901,7 @@
     <recepe>
         <title>Paella 10</title>
         <ingredients>
-            <ingredient400 gramos de arroz</ingredient>
+            <ingredient>400 gramos de arroz</ingredient>
             <ingredient>1 litro de caldo de pescado</ingredient>
 			<ingredient>200 gramos de gambaingredient</ingredient>
 			<ingredient>1 cebolla grande</ingredient>
