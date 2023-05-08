@@ -20,6 +20,9 @@ function seleccionarNom() {
   let currentAngle = 0;
   let newAngle = 0;
   const animationTime = 3000; // temps de 3 segons
+
+  nomContainer.style.transition = "transform 3s ease-in-out";
+  nomContainer.classList.add("nom-animation");
   
   const animationInterval = setInterval(() => {
     currentAngle += anglePerNom;
@@ -32,14 +35,11 @@ function seleccionarNom() {
     if (currentAngle === newAngle) {
       clearInterval(animationInterval);
       nomText.textContent = randomNom;
+      nomContainer.style.transition = "";
       nomContainer.classList.remove("nom-animation");
-      nomContainer.classList.add("nom-animation-stop");
     }
   }, animationTime / noms.length);
-  
-  nomContainer.classList.add("nom-animation");
 }
 
 const seleccionarNomBtn = document.getElementById("seleccionar-nom");
 seleccionarNomBtn.addEventListener("click", seleccionarNom);
-
