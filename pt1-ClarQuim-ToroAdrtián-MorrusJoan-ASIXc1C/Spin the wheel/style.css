@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  #nom-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #nom {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  #seleccionar-nom {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #seleccionar-nom:hover {
+    background-color: #2980b9;
+  }
+  
+  .nom-animation {
+    transform: rotate(0deg);
+    transition: transform 5s ease-out;
+  }
+  
+  .nom-animation-stop {
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-out;
+  }
+  

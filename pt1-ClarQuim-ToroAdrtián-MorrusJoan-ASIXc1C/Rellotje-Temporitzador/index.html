@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temporitzador</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Temporitzador</h1>
+    <div id="digital-clock"></div>
+    <label>Selecciona el temps:</label>
+    <input type="time" id="time-picker">
+    <p>o</p>
+    <label>Estableix el temps restant:</label>
+    <input type="text" id="countdown-input" placeholder="hh:mm:ss">
+    <br>
+    <button id="start-button">Comença</button>
+    <button id="stop-button">Atura</button>
+    <br>
+    <label>Efecte de so:</label>
+    <select id="sound-effect">
+      <option value="bell.mp3">Campana</option>
+      <option value="alarm.mp3">Alarma</option>
+      <option value="beep.mp3">Bip</option>
+    </select>
+    <audio id="audio"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
