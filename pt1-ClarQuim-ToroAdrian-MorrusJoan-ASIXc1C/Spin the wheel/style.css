@@ -1,55 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 2em;
-  }
-  
-  #nom-container {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: 2px solid black;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  #nom {
-    font-size: 3em;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 70px;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-  }
-  
-  #seleccionar-nom {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  #seleccionar-nom:hover {
-    background-color: #2980b9;
-  }
-  
-  .nom-animation {
-    transform: rotate(0deg);
-    transition: transform 5s ease-out;
-  }
-  
-  .nom-animation-stop {
-    transform: rotate(0deg);
-    transition: transform 0.5s ease-out;
-  }
-  
+  background-color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #111;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+#nom-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 6px solid #222;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+#nom {
+  font-size: 6em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 120px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-shadow: 2px 2px #b2b2b4e5;
+}
+
+#seleccionar-nom {
+  background-color: #1f32da;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  outline: none;
+}
+
+#seleccionar-nom:hover {
+  background-color: #1f32dace;
+}
+
+.nom-animation {
+  transform: rotate(0deg);
+  transition: transform 5s ease-out;
+}
+
+.nom-animation-stop {
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-out;
+}
