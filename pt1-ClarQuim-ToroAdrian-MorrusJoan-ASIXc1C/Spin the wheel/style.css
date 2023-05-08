@@ -9,6 +9,7 @@ h1 {
   font-size: 2em;
   margin: 20px 0;
   text-transform: uppercase;
+  transition: 0.5s ease-in-out;
 }
 
 #nom-container {
@@ -61,4 +62,36 @@ h1 {
 .nom-animation-stop {
   transform: rotate(0deg);
   transition: transform 0.5s ease-out;
+}
+input[type="checkbox"] {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  appearance: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+input[type="checkbox"]:checked{
+  background-color: #15ff00;
+}
+input[type="checkbox"]::before{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: 0.7s ease;
+}
+input[type="checkbox"]:checked::before{
+  transform: translate(20px);
+}
+.dark-mode {
+  background-color: #111;
+  color: #fff;
 }

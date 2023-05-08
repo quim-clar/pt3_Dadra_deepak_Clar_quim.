@@ -41,5 +41,18 @@ function seleccionarNom() {
   }, animationTime / noms.length);
 }
 
-const seleccionarNomBtn = document.getElementById("seleccionar-nom");
-seleccionarNomBtn.addEventListener("click", seleccionarNom);
+
+const themeToggle = document.getElementById('theme-toggle');
+const lightThemeLink = document.getElementById('light-theme');
+const darkThemeLink = document.getElementById('dark-theme');
+
+themeToggle.addEventListener('change', () => {
+  if (themeToggle.checked) {
+    lightThemeLink.disabled = true;
+    darkThemeLink.disabled = false;
+  } else {
+    lightThemeLink.disabled = false;
+    darkThemeLink.disabled = true;
+  }
+});
+
