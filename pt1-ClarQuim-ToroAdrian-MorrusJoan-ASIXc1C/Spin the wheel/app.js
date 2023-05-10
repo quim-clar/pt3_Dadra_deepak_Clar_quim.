@@ -13,34 +13,42 @@ const noms = [
 
 const nomContainer = document.getElementById("nom-container");
 const nomText = document.getElementById("nom");
+const rodamentSound = document.getElementById("so-rodament");
+const aturadaSound = document.getElementById("so-aturada");
 
 function seleccionarNom() {
   const randomNom = noms[Math.floor(Math.random() * noms.length)];
   const anglePerNom = 360 / noms.length;
   let currentAngle = 0;
-  let newAngle = 0;
-  const animationTime = 3000; // temps de 3 segons
+  let newAngle = anglePerNom * noms.indexOf(randomNom);
+  const animationTime = 3000; // Tiempo de 3 segundos
 
   nomContainer.style.transition = "transform 3s ease-in-out";
   nomContainer.classList.add("nom-animation");
+
+  rodamentSound.play(); // Reproducir el sonido de rodadura
   
   const animationInterval = setInterval(() => {
     currentAngle += anglePerNom;
     nomContainer.style.transform = `rotate(${currentAngle}deg)`;
-    
+
     if (currentAngle >= 360) {
       currentAngle = 0;
     }
-    
+
     if (currentAngle === newAngle) {
       clearInterval(animationInterval);
       nomText.textContent = randomNom;
       nomContainer.style.transition = "";
       nomContainer.classList.remove("nom-animation");
+      rodamentSound.pause(); // Pausar el sonido de rodadura
+      aturadaSound.play(); // Reproducir el sonido de parada
     }
   }, animationTime / noms.length);
 }
 
+const seleccionarNomButton = document.getElementById("seleccionar-nom");
+seleccionarNomButton.addEventListener("click", seleccionarNom);
 
 const themeToggle = document.getElementById('theme-toggle');
 const lightThemeLink = document.getElementById('light-theme');
