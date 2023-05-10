@@ -18,10 +18,10 @@ const aturadaSound = document.getElementById("so-aturada");
 
 function seleccionarNom() {
   const randomNom = noms[Math.floor(Math.random() * noms.length)];
-  const anglePerNom = 360 / noms.length;
+  const anglePerNom = 3600 / noms.length;
   let currentAngle = 0;
   let newAngle = anglePerNom * noms.indexOf(randomNom);
-  const animationTime = 3000; // Tiempo de 3 segundos
+  const animationTime = 6000; // Tiempo de 3 segundos
 
   nomContainer.style.transition = "transform 3s ease-in-out";
   nomContainer.classList.add("nom-animation");
