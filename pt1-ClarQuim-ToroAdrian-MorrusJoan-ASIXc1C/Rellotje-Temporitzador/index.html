@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Temporitzador</title>
+    <meta charset="UTF-8">
+    <title>Alarma</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Temporitzador</h1>
-    <div id="digital-clock"></div>
-    <label>Selecciona el temps:</label>
-    <input type="time" id="time-picker">
-    <p>o</p>
-    <label>Estableix el temps restant:</label>
-    <input type="text" id="countdown-input" placeholder="hh:mm:ss">
-    <br>
-    <button id="start-button">Comença</button>
-    <button id="stop-button">Atura</button>
-    <br>
-    <label>Efecte de so:</label>
-    <select id="sound-effect">
-      <option value="Cancion_epica_que_usa_TheGrefg.mp3">Campana</option>
-      <option value="alarm.mp3">Alarma</option>
-      <option value="beep.mp3">Bip</option>
-    </select>
-    <audio id="audio"></audio>
+    <div id="wrapper">
+      <div id="title">Alarma</div>
+      <div id="time-input">
+        <label>Temps restant:</label>
+        <input type="number" id="minutes-input" placeholder="minuts">
+        <input type="number" id="seconds-input" placeholder="segons">
+      </div>
+      <div id="duration-input">
+        <label>Temps de duració:</label>
+        <input type="number" id="duration-minutes-input" placeholder="minuts">
+        <input type="number" id="duration-seconds-input" placeholder="segons">
+      </div>
+      <div id="sound-input">
+        <label>Sonor:</label>
+        <select id="sound-select">
+          <option value="alarma.mp3">Alarma</option>
+          <option value="a.mp3">AAAAAAAAAAH</option>
+          <option value="renfe.mp3">Renfe</option>
+        </select>
+      </div>
+      <div id="alarm-input">
+        <label>Hora de l'alarma:</label>
+        <input type="time" id="alarm-time-input">
+      </div>      
+      <button id="start-btn">Començar</button>
+      <button id="stop-btn" disabled>Aturar</button>
+      <audio id="sound"></audio>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
-
-

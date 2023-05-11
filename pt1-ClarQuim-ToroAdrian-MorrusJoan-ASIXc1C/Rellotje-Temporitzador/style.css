@@ -1,36 +1,73 @@
 body {
-    background-color: #f2f2f2;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  #digital-clock {
-    font-size: 64px;
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  input[type="time"],
-  input[type="text"],
-  select {
-    font-size: 24px;
-    margin-right: 10px;
-  }
-  
-  button {
-    font-size: 24px;
-    margin-right: 10px;
-  }
-  
-  select {
-    margin-left: 10px;
-  }
-  
-  #audio {
-    display: none;
-  }
-  
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 70px;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #444;
+  color: white;
+}
+
+#sound-select {
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #444;
+  color: white;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:disabled {
+  background-color: #777;
+  cursor: default;
+}
+
+#timer {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#sound {
+  display: none;
+}
