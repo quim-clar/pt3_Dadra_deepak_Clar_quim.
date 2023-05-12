@@ -28,8 +28,8 @@ function startCountdown() {
     var remainingSeconds = totalTime % 60;
 
     // Update the countdown display
-    minutesInput.value = remainingMinutes;
-    secondsInput.value = remainingSeconds;
+    minutesInput.value = remainingMinutes.toString().padStart(2, '0');
+    secondsInput.value = remainingSeconds.toString().padStart(2, '0');
 
     // Check if the countdown has reached zero
     if (totalTime <= 0) {
@@ -50,6 +50,9 @@ function stopCountdown() {
   // Enable the start button and disable the stop button
   startButton.disabled = false;
   stopButton.disabled = true;
+
+  // Stop the sound
+  sound.pause();
 }
 
 // Function to play the selected sound
@@ -86,10 +89,16 @@ function setAlarm() {
   var timeUntilAlarm = now - Date.now();
 
   // Start the countdown with the time until the alarm
-  minutesInput.value = Math.floor(timeUntilAlarm / (1000 * 60));
-  secondsInput.value = Math.floor((timeUntilAlarm / 1000) % 60);
+  minutesInput.value = Math.floor(timeUntilAlarm / (1000 * 60)).toString().padStart(2, '0');
+  secondsInput.value = Math.floor((timeUntilAlarm / 1000) % 60).toString().padStart(2, '0');
 
   startCountdown();
+}
+
+// Function to stop the alarm sound
+function stopSound() {
+  sound.pause();
+  sound.currentTime = 0;
 }
 
 // Attach click event listeners to the buttons
@@ -98,3 +107,25 @@ stopButton.addEventListener('click', stopCountdown);
 
 // Call the setAlarm function when the alarm input changes
 alarmTimeInput.addEventListener('change', setAlarm);
+
+var currentTimeElement = document.getElementById('current-time');
+
+function updateCurrentTime() {
+  var now = new Date();
+  var hours = now.getHours().toString().padStart(2, '0');
+  var minutes = now.getMinutes().toString().padStart(2, '0');
+  var seconds = now.getSeconds().toString().padStart(2, '0');
+  var currentTimeString = hours + ':' + minutes + ':' + seconds;
+  currentTimeElement.textContent = currentTimeString;
+}
+
+setInterval(updateCurrentTime, 1000);
+
+function changeTheme() {
+  const body = document.querySelector('body');
+  body.classList.toggle('dark-mode');
+}
+
+// Attach click event listener to the mode button
+const darkModeBtn = document.getElementById('dark-mode-btn');
+darkModeBtn.addEventListener('click', changeTheme);
