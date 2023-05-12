@@ -1,14 +1,7 @@
-fetch('pt1-ClarQuim-ToroAdrian-MorrusJoan-ASIXc1C/rule34/noms.txt')
-    .then(response => response.text())
-    .then(datafile => {
-
-    const lines = datafile.split('\n');
-    const options = lines.map(line => line.trim());
-
-var optionlist = [datafile];
+var options = ["Queso", "Jamón", "Papas", "Gaseosa", "-10%", "Huevo", "Tocino", "Imán", "-20%", "Papas", "Gaseosa", "Queso", "Nada", "Hotdog", "Pierdes", "Carne x2", "Taco", "Sanduche"];
 
 var startAngle = 0;
-var arc = Math.PI / (datafile.length / 2);
+var arc = Math.PI / (options.length / 2);
 var spinTimeout = null;
 
 var spinArcStart = 10;
@@ -18,11 +11,6 @@ var spinTimeTotal = 0;
 var ctx;
 
 document.getElementById("spin").addEventListener("click", spin);
-
-const nomContainer = document.getElementById("nom-container");
-const nomText = document.getElementById("nom");
-const rodamentSound = document.getElementById("so-rodament");
-const aturadaSound = document.getElementById("so-aturada");
 
 function byte2Hex(n) {
   var nybHexString = "0123456789ABCDEF";
@@ -61,10 +49,10 @@ function drawRouletteWheel() {
 
     ctx.font = 'bold 12px Helvetica, Arial';
 
-    for(var i = 0; i < datafile.length; i++) {
+    for(var i = 0; i < options.length; i++) {
       var angle = startAngle + i * arc;
       //ctx.fillStyle = colors[i];
-      ctx.fillStyle = getColor(i, datafile.length);
+      ctx.fillStyle = getColor(i, options.length);
 
       ctx.beginPath();
       ctx.arc(250, 250, outsideRadius, angle, angle + arc, false);
@@ -81,7 +69,7 @@ function drawRouletteWheel() {
       ctx.translate(250 + Math.cos(angle + arc / 2) * textRadius, 
                     250 + Math.sin(angle + arc / 2) * textRadius);
       ctx.rotate(angle + arc / 2 + Math.PI / 2);
-      var text = datafile[i];
+      var text = options[i];
       ctx.fillText(text, -ctx.measureText(text).width / 2, 0);
       ctx.restore();
     } 
@@ -127,7 +115,7 @@ function stopRotateWheel() {
   var index = Math.floor((360 - degrees % 360) / arcd);
   ctx.save();
   ctx.font = 'bold 30px Helvetica, Arial';
-  var text = datafile[index]
+  var text = options[index]
   ctx.fillText(text, 250 - ctx.measureText(text).width / 2, 250 + 10);
   ctx.restore();
 }
@@ -138,6 +126,4 @@ function easeOut(t, b, c, d) {
   return b+c*(tc + -3*ts + 3*t);
 }
 
-drawRouletteWheel()
-
-})
+drawRouletteWheel();
