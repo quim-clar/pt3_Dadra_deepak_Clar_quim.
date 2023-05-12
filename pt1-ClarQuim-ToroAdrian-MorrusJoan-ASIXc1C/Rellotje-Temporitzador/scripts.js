@@ -27,11 +27,6 @@ function startCountdown() {
     var remainingMinutes = Math.floor(totalTime / 60);
     var remainingSeconds = totalTime % 60;
 
-<<<<<<< HEAD
-    // Update the countdown display
-=======
-    // Update the countdown display
->>>>>>> 6077515 (Sust)
     minutesInput.value = remainingMinutes.toString().padStart(2, '0');
     secondsInput.value = remainingSeconds.toString().padStart(2, '0');
 
