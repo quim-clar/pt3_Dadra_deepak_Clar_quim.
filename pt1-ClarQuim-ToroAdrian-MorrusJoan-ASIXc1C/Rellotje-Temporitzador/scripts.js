@@ -26,7 +26,8 @@ function startCountdown() {
 
     var remainingMinutes = Math.floor(totalTime / 60);
     var remainingSeconds = totalTime % 60;
-
+    
+    // Update the countdown display
     minutesInput.value = remainingMinutes.toString().padStart(2, '0');
     secondsInput.value = remainingSeconds.toString().padStart(2, '0');
 
@@ -50,11 +51,7 @@ function stopCountdown() {
   startButton.disabled = false;
   stopButton.disabled = true;
 
-<<<<<<< HEAD
   // Stop the sound
-=======
-  // Stop the sound
->>>>>>> 6077515 (Sust)
   sound.pause();
 }
 
@@ -91,11 +88,7 @@ function setAlarm() {
 
   var timeUntilAlarm = now - Date.now();
 
-<<<<<<< HEAD
   // Start the countdown with the time until the alarm
-=======
-  // Start the countdown with the time until the alarm
->>>>>>> 6077515 (Sust)
   minutesInput.value = Math.floor(timeUntilAlarm / (1000 * 60)).toString().padStart(2, '0');
   secondsInput.value = Math.floor((timeUntilAlarm / 1000) % 60).toString().padStart(2, '0');
 
@@ -135,9 +128,4 @@ function changeTheme() {
 
 // Attach click event listener to the mode button
 const darkModeBtn = document.getElementById('dark-mode-btn');
-<<<<<<< HEAD
 darkModeBtn.addEventListener('click', changeTheme);
-=======
-darkModeBtn.addEventListener('click', changeTheme);
-
->>>>>>> 6077515 (Sust)
