@@ -73,20 +73,3 @@ function startTimer() {
     
     startButton.addEventListener("click", startTimer);
     stopButton.addEventListener("click", stopTimer);
-// Resta del codi JavaScript existent
-
-function displayCurrentTime() {
-  const currentTime = new Date();
-  const hours = currentTime.getHours();
-  const minutes = currentTime.getMinutes();
-  const seconds = currentTime.getSeconds();
-
-  const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-  const currentTimeElement = document.getElementById("current-time");
-  currentTimeElement.textContent = formattedTime;
-}
-
-// Resta del codi JavaScript existent
-
-// Afegim una funció per actualitzar l'hora actual cada segon
-setInterval(displayCurrentTime, 1000);
