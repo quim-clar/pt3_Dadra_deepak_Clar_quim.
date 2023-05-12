@@ -10,6 +10,7 @@ const sound = document.getElementById("sound");
 const alarmTimeInput = document.getElementById("alarm-time-input");
 
 
+
 let countdown;
 let duration;
 let startTime;
@@ -30,7 +31,7 @@ function startTimer() {
     duration = (Number(durationMinutesInput.value) || 0) * 60 + (Number(durationSecondsInput.value) || 0);
   }
 
-  if (isNaN(duration) || duration <= 0) {
+  if (isNaN(duration) || duration < 0) {
     alert("La duració ha de ser un número vàlid i major que zero.");
     return;
   }
@@ -72,3 +73,20 @@ function startTimer() {
     
     startButton.addEventListener("click", startTimer);
     stopButton.addEventListener("click", stopTimer);
+// Resta del codi JavaScript existent
+
+function displayCurrentTime() {
+  const currentTime = new Date();
+  const hours = currentTime.getHours();
+  const minutes = currentTime.getMinutes();
+  const seconds = currentTime.getSeconds();
+
+  const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  const currentTimeElement = document.getElementById("current-time");
+  currentTimeElement.textContent = formattedTime;
+}
+
+// Resta del codi JavaScript existent
+
+// Afegim una funció per actualitzar l'hora actual cada segon
+setInterval(displayCurrentTime, 1000);

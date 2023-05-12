@@ -71,3 +71,26 @@ button:disabled {
 #sound {
   display: none;
 }
+/* Resto del código CSS existente */
+
+#current-time {
+  font-size: 15rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  color: #fff;
+  transition: color 0.5s ease;
+}
+
+#timer {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#stop-btn:disabled + #timer {
+  color: red;
+}
+

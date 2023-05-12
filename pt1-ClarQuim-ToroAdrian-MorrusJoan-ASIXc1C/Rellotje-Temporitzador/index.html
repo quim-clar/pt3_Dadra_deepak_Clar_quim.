@@ -2,24 +2,19 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Alarma</title>
+    <title>Alarm</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="wrapper">
       <div id="title">Alarma</div>
       <div id="time-input">
-        <label>Temps restant:</label>
+        <label>Countdown:</label>
         <input type="number" id="minutes-input" placeholder="minuts">
         <input type="number" id="seconds-input" placeholder="segons">
       </div>
-      <div id="duration-input">
-        <label>Temps de duració:</label>
-        <input type="number" id="duration-minutes-input" placeholder="minuts">
-        <input type="number" id="duration-seconds-input" placeholder="segons">
-      </div>
       <div id="sound-input">
-        <label>Sonor:</label>
+        <label>Alert sound:</label>
         <select id="sound-select">
           <option value="alarma.mp3">Alarma</option>
           <option value="a.mp3">AAAAAAAAAAH</option>
@@ -27,13 +22,21 @@
         </select>
       </div>
       <div id="alarm-input">
-        <label>Hora de l'alarma:</label>
+        <label>Alarm:</label>
         <input type="time" id="alarm-time-input">
       </div>      
-      <button id="start-btn">Començar</button>
-      <button id="stop-btn" disabled>Aturar</button>
+      <button id="start-btn">Start</button>
+      <button id="stop-btn" disabled>Stop</button>
       <audio id="sound"></audio>
     </div>
+    <div id="current-time"></div>
+    <div id="countdown-container">
+      <div id="countdown">
+        <span id="countdown-minutes"></span>
+        <span id="countdown-seconds"></span>
+      </div>
+    </div>
+    <div id="current-time"></div>    
     <script src="script.js"></script>
   </body>
 </html>
