@@ -4,6 +4,15 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#current-time {
+  font-size: 15rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  color: black;
+  transition: color 0.5s ease;
+}
+
 #wrapper {
   max-width: 500px;
   margin: 0 auto;
@@ -79,41 +88,36 @@ button:disabled {
   display: none;
 }
 
-#current-time {
-  font-size: 15rem;
-  font-weight: bold;
-  text-align: center;
-  margin: 20px 0;
-  color: black;
-  transition: color 0.5s ease;
-}
-
-#timer {
-  font-size: 4rem;
-  font-weight: bold;
-  margin: 20px 0;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-#stop-btn:disabled + #timer {
-  color: red;
-}
-
-
-.dark-mode body {
+.dark-mode {
   background-color: black;
   color: white;
   font-family: Arial, sans-serif;
-
 }
 
-
 .dark-mode #current-time {
-    font-size: 15rem;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px 0;
-    color: white;
-    transition: color 0.5s ease;
-  }
+  color: white;
+}
+
+.dark-mode #title,
+.dark-mode label {
+  color: #999;
+}
+
+.dark-mode input[type="number"],
+.dark-mode #sound-select,
+.dark-mode button {
+  background-color: #666;
+  color: white;
+}
+
+.dark-mode button:disabled {
+  background-color: #333;
+}
+
+.dark-mode #timer {
+  color: white;
+}
+
+.dark-mode #stop-btn:disabled + #timer {
+  color: #FF3333;
+}
