@@ -1,13 +1,12 @@
-var options = ["Queso", "Jamón", "Papas", "Gaseosa", "-10%", "Huevo", "Tocino", "Imán", "-20%", "Papas", "Gaseosa", "Queso", "Nada", "Hotdog", "Pierdes", "Carne x2", "Taco", "Sanduche"];
+// EDITA AQUESTA LLISTA PER INSERTAR ELS NOMS
+var options = ["NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom", "NomRandom"];
 
 var startAngle = 0;
 var arc = Math.PI / (options.length / 2);
 var spinTimeout = null;
-
 var spinArcStart = 10;
 var spinTime = 0;
 var spinTimeTotal = 0;
-
 var ctx;
 
 document.getElementById("spin").addEventListener("click", spin);
