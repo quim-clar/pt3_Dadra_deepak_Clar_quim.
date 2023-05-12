@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background-color: white;
   color: black;
   font-family: Arial, sans-serif;
@@ -121,3 +122,142 @@ button:disabled {
 .dark-mode #stop-btn:disabled + #timer {
   color: #FF3333;
 }
+=======
+	 background-color: white;
+	 color: black;
+	 font-family: Arial, sans-serif;
+	}
+	
+	#wrapper {
+	 max-width: 500px;
+	 margin: 0 auto;
+	 padding: 20px;
+	 background-color: #333;
+	 border-radius: 10px;
+	 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+	
+	#title {
+	 font-size: 3rem;
+	 font-weight: bold;
+	 margin-bottom: 20px;
+	 text-align: center;
+	 color: white;
+	}
+	
+	label {
+	 display: inline-block;
+	 font-size: 1.2rem;
+	 margin-bottom: 10px;
+	 color: white;
+	}
+	
+	input[type="number"] {
+	 width: 70px;
+	 font-size: 1.2rem;
+	 padding: 5px;
+	 border-radius: 5px;
+	 border: none;
+	 background-color: #444;
+	 color: white;
+	}
+	
+	#sound-select {
+	 font-size: 1.2rem;
+	 padding: 5px;
+	 border-radius: 5px;
+	 border: none;
+	 background-color: #444;
+	 color: white;
+	}
+	
+	button {
+	 font-size: 1.2rem;
+	 padding: 5px 15px;
+	 border-radius: 5px;
+	 border: none;
+	 background-color: #4CAF50;
+	 color: white;
+	 cursor: pointer;
+	 margin-right: 10px;
+	}
+	
+	button:disabled {
+	 background-color: #777;
+	 cursor: default;
+	}
+	
+	#timer {
+	 font-size: 4rem;
+	 font-weight: bold;
+	 margin: 20px 0;
+	 text-align: center;
+	 color: black;
+	}
+	
+	#stop-btn:disabled + #timer {
+	 color: red;
+	}
+	
+	#sound {
+	 display: none;
+	}
+	
+	#current-time {
+	 font-size: 15rem;
+	 font-weight: bold;
+	 text-align: center;
+	 margin: 20px 0;
+	 color: black;
+	 transition: color 0.5s ease;
+	}
+	
+	#timer {
+	 font-size: 4rem;
+	 font-weight: bold;
+	 margin: 20px 0;
+	 text-align: center;
+	 color: rgb(0, 0, 0);
+	}
+	
+	#stop-btn:disabled + #timer {
+	 color: red;
+	}
+	
+	
+	.dark-mode {
+	 background-color: black;
+	 color: white;
+	 font-family: Arial, sans-serif;
+	}
+	
+	.dark-mode #current-time {
+	 color: white;
+	}
+	
+	.dark-mode #title,
+	.dark-mode label {
+	 color: #999;
+	}
+	
+	.dark-mode input[type="number"],
+	.dark-mode #sound-select,
+	.dark-mode button {
+	 background-color: #666;
+	 color: white;
+	}
+	
+	.dark-mode button:disabled {
+	 background-color: #333;
+	}
+	
+	.dark-mode #timer {
+	 color: white;
+	}
+	
+	.dark-mode #stop-btn:disabled + #timer {
+	 color: #FF3333;
+	}
+	
+	
+>>>>>>> 6077515 (Sust)

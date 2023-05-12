@@ -27,18 +27,22 @@ function startCountdown() {
     var remainingMinutes = Math.floor(totalTime / 60);
     var remainingSeconds = totalTime % 60;
 
+<<<<<<< HEAD
     // Update the countdown display
+=======
+    // Update the countdown display
+>>>>>>> 6077515 (Sust)
     minutesInput.value = remainingMinutes.toString().padStart(2, '0');
     secondsInput.value = remainingSeconds.toString().padStart(2, '0');
 
-    // Check if the countdown has reached zero
+    // Check if the countdown has reached zero
     if (totalTime <= 0) {
       clearInterval(countdownInterval);
       playSound();
     }
   }, 1000);
 
-  // Disable the start button and enable the stop button
+  // Disable the start button and enable the stop button
   startButton.disabled = true;
   stopButton.disabled = false;
 }
@@ -47,11 +51,15 @@ function startCountdown() {
 function stopCountdown() {
   clearInterval(countdownInterval);
 
-  // Enable the start button and disable the stop button
+  // Enable the start button and disable the stop button
   startButton.disabled = false;
   stopButton.disabled = true;
 
+<<<<<<< HEAD
   // Stop the sound
+=======
+  // Stop the sound
+>>>>>>> 6077515 (Sust)
   sound.pause();
 }
 
@@ -74,7 +82,7 @@ function setAlarm() {
   var currentHour = now.getHours();
   var currentMinute = now.getMinutes();
 
-  // Set the alarm time for the next day if it's already passed
+  // Set the alarm time for the next day if it's already passed
   if (
     alarmHour < currentHour ||
     (alarmHour === currentHour && alarmMinute <= currentMinute)
@@ -88,7 +96,11 @@ function setAlarm() {
 
   var timeUntilAlarm = now - Date.now();
 
+<<<<<<< HEAD
   // Start the countdown with the time until the alarm
+=======
+  // Start the countdown with the time until the alarm
+>>>>>>> 6077515 (Sust)
   minutesInput.value = Math.floor(timeUntilAlarm / (1000 * 60)).toString().padStart(2, '0');
   secondsInput.value = Math.floor((timeUntilAlarm / 1000) % 60).toString().padStart(2, '0');
 
@@ -128,4 +140,9 @@ function changeTheme() {
 
 // Attach click event listener to the mode button
 const darkModeBtn = document.getElementById('dark-mode-btn');
+<<<<<<< HEAD
 darkModeBtn.addEventListener('click', changeTheme);
+=======
+darkModeBtn.addEventListener('click', changeTheme);
+
+>>>>>>> 6077515 (Sust)
